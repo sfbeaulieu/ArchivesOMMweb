@@ -19,6 +19,8 @@
 # Un code php sera créé pour lire la liste, quelque chose de très simple pour débuter (la raison d'avoir une liste ascendante de "nom d'objet"), 
 # mais qui pourrait évoluer par la suite.
 
+# ce code plante... mais donne une idée de ce que l'on veut...
+
 from astropy.io import ascii
 from astropy.io import fits
 import numpy as np
