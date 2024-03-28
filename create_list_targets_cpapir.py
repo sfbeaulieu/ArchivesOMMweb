@@ -11,8 +11,11 @@
 
 # La recherche sera mis dans une table ascii ou csv, et cette table sera lu par un code php
 
-# En premier lieu, toute l'archive sera lu, et par la suite, il faudrait trouver un moyen de lire l'archive pour 1) les nouvelles nuits, 2) les nuits qui ont été réduites de nouveau. 
-# La liste devra se réorganiser en ordre ascendant de "nom d'objet", mais ça reste à discuter.
+# En premier lieu, toute l'archive sera lu, et on va créer un fichier ascii de l'information par objet.
+# Par la suite, il faudrait faire une liste contenant tous les fichier déjà créé, et faire lire cette liste par le code pour détecter 
+# les nouvelles nuits, et les nuits qui ont été réduites de nouveau pour y inclure les changements. 
+# La liste de compilation des nuits devra se réorganiser en ordre ascendant de "nom d'objet" (mais ça reste à discuter). 
+# Cette liste pourra être lu par le code php.
 
 from astropy.io import ascii
 from astropy.io import fits
