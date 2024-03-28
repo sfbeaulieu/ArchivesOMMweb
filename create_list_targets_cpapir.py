@@ -20,8 +20,6 @@
 # Un code php sera créé pour lire la liste complete (de tous les instruments), quelque chose de très simple pour débuter (la raison d'avoir une liste ascendante de "nom d'objet"), 
 # mais qui pourrait évoluer par la suite.
 
-# ce code plante... mais donne une idée de ce que l'on veut...
-
 # Il faut lire dans /data/cpapir/reductions/YYMMDD/YYMMDD_*.fits.gz (pour CPAPIR) (ensuite adapter le code pour PESTO etc...)
 # PLus rapide et directe que d'essayer de se créer une liste de nuits qui serait ensuite passé au code.
 
@@ -40,7 +38,7 @@
 # Boucle 6 : read "new_entries" and probe the metadata, and create one "simple_header_YYMMDD_targetname_filter" table file per image, 
 # save in the image night folder, and add the entore path of that file to "CPAPIR_simple_header_all", and then, read the table file, and dump in "archive_targets_omm"
 
-
+# ce début de code plante... 
 from astropy.io import ascii
 from astropy.io import fits
 import numpy as np
