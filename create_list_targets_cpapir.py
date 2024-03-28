@@ -16,6 +16,8 @@
 # les nouvelles nuits, et les nuits qui ont été réduites de nouveau pour y inclure les changements. 
 # La liste de compilation des nuits devra se réorganiser en ordre ascendant de "nom d'objet" (mais ça reste à discuter). 
 # Cette liste pourra être lu par le code php.
+# Un code php sera créé pour lire la liste, quelque chose de très simple pour débuter (la raison d'avoir une liste ascendante de "nom d'objet"), 
+# mais qui pourrait évoluer par la suite.
 
 from astropy.io import ascii
 from astropy.io import fits
